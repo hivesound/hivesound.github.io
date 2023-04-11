@@ -1,0 +1,51 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://next.vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify' with (
+//   $color-pack: false
+// );
+
+:root {
+    --base-color: rgba(255, 226, 0);
+    --base-color-75: rgba(255, 226, 0, 0.75);
+    --base-background-color: rgba(30,30,30);
+   }
+
+.v-app {
+    min-height: 100vh;
+}
+.v-app-bar.v-toolbar{
+    background-color: var(--base-background-color);
+    color: var(--base-color-75);
+}
+.header {
+    height: 5vh;
+    background-color: var(--base-background-color);
+}
+.v-main {
+    height: 85vh;
+    overflow: auto;
+    background-color: var(--base-background-color);
+}
+
+.v-card{
+    color: white;
+}
+
+.v-footer{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    color: var(--base-color-75);
+    background-color: rgba(45,45,45);
+}
+
+.imprint{
+    color: var(--base-color-75);
+}
