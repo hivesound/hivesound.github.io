@@ -17,6 +17,7 @@
 
 .v-app {
     min-height: 100vh;
+
 }
 .v-app-bar.v-toolbar{
     background-color: var(--base-background-color);
@@ -30,10 +31,7 @@
     height: 85vh;
     overflow: auto;
     background-color: var(--base-background-color);
-}
-
-.v-card{
-    color: white;
+    color:white
 }
 
 .v-footer{

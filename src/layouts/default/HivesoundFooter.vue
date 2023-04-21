@@ -8,7 +8,7 @@
             </v-btn>
         </div> -->
         <div>
-            <router-link 
+            <router-link
                 style="text-decoration: none; color: inherit;"
                 to="/imprint">
                 Imprint
