@@ -1,18 +1,18 @@
 <template>
     <v-container class="fill-height">
         <v-responsive class="d-flex align-center justify-center fill-height">
-            <h4 class="mb-6 text-h4" >Team</h4>
+            <h4 class="mb-4 text-h4" >Team</h4>
             <v-row>
                 <v-col v-for="(profile, idx) in profiles" :key="idx" cols="4">
                     <v-img
                         contain
                         :src="profile.img"
-                        width="25rem"
+                        max-width="25rem"
                         height="25rem">
                     </v-img>
                     <v-card
                         class="mt-2"
-                        width="25rem"
+                        max-width="25rem"
                         variant="tonal">
                         <v-card-title>
                             {{ profile.text }}

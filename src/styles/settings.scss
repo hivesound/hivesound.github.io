@@ -11,10 +11,13 @@
 
 :root {
     --base-color: rgba(183, 146, 22);
+    --base-color-80: rgba(183, 146, 22, 0.8);
     --secondary-color: rgba(255, 226, 0, 0.75);
+    --secondary-color-50: rgba(255, 226, 0, 0.5);
     --footnote-color:  rgb(80, 80, 80);
     --base-background-color: rgba(30,30,30);
-    --base-background-scondary-color: rgb(20, 20, 20);
+    --base-background-color-70: rgba(30,30,30, 0.7);
+    --base-background-scondary-color: rgb(25, 25, 25);
    }
 
 .v-app {
@@ -61,12 +64,14 @@
 
 .hivesoundWaves{
     background-image: url('@/assets/waves-hs-website-50.svg');
-    background-size: 100% 100%;
+    //background-size: 100% 100%;
+    background-position: bottom ;
+    margin-bottom: 20rem;
 
 }
 
-.vision {
-    background-color: var(--base-color);
+.idea {
+    background-color: var(--base-background-color-70);
     border-radius: 10px;
 }
 
