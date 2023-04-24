@@ -13,12 +13,6 @@
       </v-col>
     </v-row> -->
     <!-- TODO: Remove -->
-    <v-card
-        class="mb-4"
-        width="40%"
-        text="This site is currently being build. Stay tuned for more!"
-        variant="tonal">
-      </v-card>
     </v-responsive>
   </v-container>
 

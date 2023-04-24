@@ -60,7 +60,7 @@
 }
 
 .hivesoundWaves{
-    background-image: url('@/assets/waves-hs-website.svg');
+    background-image: url('@/assets/waves-hs-website-50.svg');
     background-size: 100% 100%;
 
 }
@@ -73,4 +73,13 @@
 .nostyle {
  color: var(--secondary-color);
  text-decoration: none !important;
+}
+
+.v-container {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.stripe {
+    background-color: var(--base-color);
 }
