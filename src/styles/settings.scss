@@ -10,9 +10,11 @@
 // );
 
 :root {
-    --base-color: rgba(255, 226, 0);
-    --base-color-75: rgba(255, 226, 0, 0.75);
+    --base-color: rgba(183, 146, 22);
+    --secondary-color: rgba(255, 226, 0, 0.75);
+    --footnote-color:  rgb(80, 80, 80);
     --base-background-color: rgba(30,30,30);
+    --base-background-scondary-color: rgb(20, 20, 20);
    }
 
 .v-app {
@@ -24,7 +26,7 @@
     color: var(--base-color-75);
 }
 .header {
-    height: 5vh;
+    margin-top: 2rem;
     background-color: var(--base-background-color);
 }
 .v-main {
@@ -34,16 +36,41 @@
     color:white
 }
 
-.v-footer{
-    height: 10vh;
+.footer{
     display: flex;
+    height: 15vh;
     flex-direction: column;
-    justify-content: center;
+    padding-right: 20rem;
+    padding-left: 25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: space-between;
     justify-items: center;
-    color: var(--base-color-75);
-    background-color: rgba(45,45,45);
+    color: var(--secondary-color);
+    background-color:  var(--base-background-scondary-color)
+}
+
+.footnote{
+ color: var(--footnote-color);
+ font-size: medium;
 }
 
 .imprint{
-    color: var(--base-color-75);
+    color: var(--secondary-color);
+}
+
+.hivesoundWaves{
+    background-image: url('@/assets/waves-hs-website.svg');
+    background-size: 100% 100%;
+
+}
+
+.vision {
+    background-color: var(--base-color);
+    border-radius: 10px;
+}
+
+.nostyle {
+ color: var(--secondary-color);
+ text-decoration: none !important;
 }
