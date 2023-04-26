@@ -44,11 +44,6 @@ export default defineComponent({
 
         }
     },
-    methods: {
-        goToLinkedIn(linkedin: string) {
-            window.open(linkedin, '_blank')
-        }
-    }
 })
 
 </script>
