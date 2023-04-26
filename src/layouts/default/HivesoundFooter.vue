@@ -1,11 +1,11 @@
 <template>
     <div class="d-flex footer">
         <v-row class="space-around">
-            <v-col class="justify-center">
-                <v-img src="@/assets/HIVESOUND_CI_yellow.png" width="40%"></v-img>
+            <v-col class="justify-center cols-xs-12">
+                <v-img src="@/assets/HIVESOUND_CI_yellow.png" min-width="7rem" max-width="15rem"></v-img>
                 <p class="mt-2 footnote">  @HIVESOUND {{ new Date().getFullYear() }}</p>
             </v-col>
-            <v-col >
+            <v-col class="cols-xs-12">
                 <h3>Legal</h3>
                 <router-link
                 style="text-decoration: none; color: inherit;"
@@ -13,7 +13,7 @@
                 Imprint
             </router-link>
             </v-col>
-            <v-col>
+            <v-col class="cols-xs-12">
                 <h3>Follow us</h3>
                 <a class="nostyle" href="https://www.linkedin.com/company/hivesound/" target="_blank">
                     <span class="mr-2"><v-icon icon="fab fa-linkedin-in" size="x-small"/></span>

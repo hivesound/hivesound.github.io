@@ -1,30 +1,29 @@
 <template>
-    <v-container class="fill-height">
-        <v-responsive class="d-flex align-center justify-center fill-height">
-            <h4 class="mb-4 text-h4" >Team</h4>
-            <v-row>
-                <v-col v-for="(profile, idx) in profiles" :key="idx" cols="4">
-                    <v-img
-                        contain
-                        :src="profile.img"
-                        max-width="25rem"
-                        height="25rem">
-                    </v-img>
-                    <v-card
-                        class="mt-2"
-                        max-width="25rem"
-                        variant="tonal">
-                        <v-card-title>
-                            {{ profile.text }}
-                        </v-card-title>
-                    </v-card>
-                    <!-- <div class="mt-2 mx-2">
+    <div class="main team">
+        <h4 class="mb-4 text-h4">Team</h4>
+        <v-row class="">
+            <v-col v-for="(profile, idx) in profiles" :key="idx" class="col-sm-12 col-md-12">
+                <v-img
+                    contain
+                    :src="profile.img"
+                    width="22rem"
+                  >
+                </v-img>
+                <v-card
+                    class="mt-2 d-flex align-center"
+                    width ="22rem"
+                    variant="tonal">
+                    <v-card-title class="text-subtitle-1">
                         {{ profile.text }}
-                    </div> -->
-                </v-col>
-            </v-row>
-        </v-responsive>
-    </v-container>
+                    </v-card-title>
+                    <v-btn class="ml-2" variant="text" icon="fab fa-linkedin-in" size="small" href="https://www.linkedin.com/in/kraus-kevin/" target="_blank"></v-btn>
+                </v-card>
+                <!-- <div class="mt-2 mx-2">
+                    {{ profile.text }}
+                </div> -->
+            </v-col>
+        </v-row>
+    </div>
   </template>
 
 <script lang="ts">
@@ -36,13 +35,19 @@ export default defineComponent({
     data() {
         return {
             profiles: [
-                {img: team_michelle, text:'Dr. Michelle Maurer'},
-                {img: team_julian, text:'Julian Obrecht'},
-                {img: team_kevin, text:'Kevin Kraus'},
-            ]
+                {img: team_michelle, text:'Dr. Michelle Maurer | Research lead', linkedin: 'https://www.linkedin.com/in/dr-mmaurer/'},
+                {img: team_julian, text:'Julian Obrecht | DevOps lead', linkedin: 'https://www.linkedin.com/in/julian-obrecht-2a9677114/'},
+                {img: team_kevin, text:'Kevin Kraus | AI lead', linkedin: 'https://www.linkedin.com/in/kraus-kevin/'},
+            ],
+
+            showLinkedIn: false,
+
         }
     },
     methods: {
+        goToLinkedIn(linkedin: string) {
+            window.open(linkedin, '_blank')
+        }
     }
 })
 

@@ -33,16 +33,23 @@
     background-color: var(--base-background-color);
 }
 .v-main {
-    height: 85vh;
     overflow: auto;
     background-color: var(--base-background-color);
     color:white
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //height: 100vh;
+}
+
 .footer{
     display: flex;
-    height: 15vh;
-    flex-direction: column;
+    min-height: 15vh;
+    flex-direction: row;
     padding-right: 20rem;
     padding-left: 25rem;
     padding-top: 2rem;
@@ -62,12 +69,12 @@
     color: var(--secondary-color);
 }
 
-.hivesoundWaves{
+.hivesound-waves{
     background-image: url('@/assets/waves-hs-website-50.svg');
-    //background-size: 100% 100%;
-    background-position: bottom ;
-    margin-bottom: 20rem;
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .idea {
@@ -87,4 +94,32 @@
 
 .stripe {
     background-color: var(--base-color);
+}
+
+.no-margin-x {
+    margin-right: -48px !important;
+    margin-left: -48px !important;
+}
+
+.partner  {
+    background-color: var(--base-background-color-70);
+}
+
+.team {
+    height: 50vh;
+    margin-bottom: 15rem;
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+/* Apply the animation to your v-icon */
+.arrow-icon {
+animation-name: fade;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
 }
