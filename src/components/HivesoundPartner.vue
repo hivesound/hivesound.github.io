@@ -3,10 +3,14 @@
     <h4 class="mb-6 text-h4" >Supported by</h4>
     <v-row class="pa-2 mb-12">
       <v-col>
-        <v-img content  width="18rem" src="@/assets/ai_startup_hub.png"></v-img>
+        <a href="https://www.aistartuphub.com/" target="_blank">
+          <v-img content  width="18rem" src="@/assets/ai_startup_hub.png" ></v-img>
+        </a>
       </v-col>
       <v-col>
-        <v-img content width="18rem" src="@/assets/partner_imkerei_finck.png"></v-img>
+        <a href="https://www.imkerei-finck.de/" target="_blank">
+          <v-img content width="18rem" src="@/assets/partner_imkerei_finck.png"></v-img>
+        </a>
       </v-col>
     </v-row>
     <v-row>
