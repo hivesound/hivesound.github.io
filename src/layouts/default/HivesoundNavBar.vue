@@ -5,7 +5,7 @@
         <v-img
           class="mt-4 mx-6"
           src="@/assets/HIVESOUND_CI_yellow.png"
-          width="10%"
+          width="12rem"
           >
         </v-img>
       </router-link>

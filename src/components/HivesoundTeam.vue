@@ -1,8 +1,8 @@
 <template>
     <div class="main team">
         <h4 class="mb-4 text-h4">Team</h4>
-        <v-row class="">
-            <v-col v-for="(profile, idx) in profiles" :key="idx" class="col-sm-12 col-md-12">
+        <v-row class="no-gutters">
+            <v-col v-for="(profile, idx) in profiles" :key="idx" class="col-12 col-md-6 col-lg-4">
                 <v-img
                     contain
                     :src="profile.img"

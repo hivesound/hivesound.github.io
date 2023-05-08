@@ -16,6 +16,7 @@
     --secondary-color-50: rgba(255, 226, 0, 0.5);
     --footnote-color:  rgb(80, 80, 80);
     --base-background-color: rgba(30,30,30);
+    --base-background-gradient: linear-gradient(142deg, rgba(60,60,60,1) 0%, rgba(34,34,34,1) 35%, rgba(30,30,30,1) 100%);
     --base-background-color-70: rgba(30,30,30, 0.7);
     --base-background-scondary-color: rgb(25, 25, 25);
    }
@@ -25,39 +26,35 @@
 
 }
 .v-app-bar.v-toolbar{
-    background-color: var(--base-background-color);
     color: var(--base-color-75);
+    background: inherit;
 }
 .header {
     margin-top: 2rem;
-    background-color: var(--base-background-color);
+    background-color: inherit;
 }
 .v-main {
     overflow: auto;
-    background-color: var(--base-background-color);
-    color:white
+    color:white;
+    background: var(--base-background-gradient);
+    margin-bottom: 5rem;
 }
 
 .main {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    //height: 100vh;
+    margin-bottom: 10rem;
 }
 
 .footer{
-    display: flex;
     min-height: 15vh;
-    flex-direction: row;
-    padding-right: 20rem;
-    padding-left: 25rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    justify-content: space-between;
-    justify-items: center;
     color: var(--secondary-color);
-    background-color:  var(--base-background-scondary-color)
+    background-color: var(--base-background-scondary-color-);
 }
 
 .footnote{

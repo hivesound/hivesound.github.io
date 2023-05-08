@@ -2,8 +2,7 @@
   <div class="main h-screen">
       <v-img
         contain
-        height="400"
-        width="90vh"
+        width="80rem"
         src="@/assets/HIVESOUND_CI_waves.png"
       />
     <v-row class="arrow-icon">
