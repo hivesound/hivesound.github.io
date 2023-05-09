@@ -6,13 +6,13 @@
           <q-img
               contain
               :src="profile.img"
-              width="22rem"
+              style="max-width: 22rem"
             >
           </q-img>
           <q-card
             flat
             class="q-mt-sm"
-            style="width:22rem"
+            style="max-width:22rem"
             >
             <q-card-section class="text-subtitle-1">
                 {{ profile.text }}

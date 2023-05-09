@@ -16,14 +16,14 @@
     </q-page-container>
 
     <q-footer class="footer">
-      <div class="row q-pa-xl q-gutter-xl q-ml-none">
-        <div class="col">
-            <q-img src="~assets/HIVESOUND_CI_yellow.png" style="min-width: 7rem; max-width: 15rem"></q-img>
-            <p class="q-mt-sm footnote">  @HIVESOUND {{ new Date().getFullYear() }}</p>
+      <div class="row q-pa-xl q-ml-none">
+        <div class="col q-mr-md">
+            <q-img src="~assets/HIVESOUND_CI_yellow.png" style="max-width: 15rem"></q-img>
+            <p class="q-mt-sm footnote">@HIVESOUND {{ new Date().getFullYear() }}</p>
         </div>
-        <div class="col imprint">
+        <div class="col imprint q-mr-md">
           <div class="">
-            <h4>Legal</h4>
+            <p style="font-weight: bold; font-size:medium">Legal</p>
             <router-link
               style="text-decoration: none; color: inherit;"
               to="/imprint">
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="col imprint">
-          <h4>Follow us</h4>
+          <p style="font-weight: bold; font-size:medium">Follow us</p>
           <a class="imprint" href="https://www.linkedin.com/company/hivesound/" target="_blank">
               <span class="q-pr-sm"><q-icon name="fab fa-linkedin-in"/></span>
               <span>LinkedIn</span>

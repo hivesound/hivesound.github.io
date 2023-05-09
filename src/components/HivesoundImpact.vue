@@ -2,51 +2,30 @@
   <div class="hivesound-waves" id="impact">
     <div class="row justify-start q-my-md">
       <div class="col-12 col-md-5 impact q-pa-md">
-        <h3 class="">Idea</h3>
+        <h3 class="">BEES ARE ESSENTIAL FOR PEOPLE AND THE PLANET</h3>
         <p class="text-subtitle-1 q-mt-sm">
-          Developing a platform for beekeepers and companies comitted to sustainability by keeping bees. Using AI driven
-          frequency analysis and a simple-to-use monitoring system, we derive valuable information about their bee-colonies
-          and the surrounding environment.
-        </p>
-        <p class="text-subtitle-1">
-          This way, we cannot only contribute to preservance of honey bees and biodiversity, but ultimately,
-          help ourselves to preserve a diverse and healthy nutrition, honey bee products and a colourful nature to
-          marvel at.
+          We need honey bees – they pollinate our crops, provide food security and a diverse diet. The functioning of whole ecosystems and the preservation of biodiversity heavily depend on honey bees. Currently, their survival is threatened by climate change, pesticides, old and new pests and they can barely survive without human care. We make sure your bee hive is tightly monitored to keep your bees as happy and healthy as possible.
         </p>
       </div>
     </div>
-<!-- Remove comments once texts are ready! -->
-    <!-- <div class="row justify-end  q-my-md">
+
+    <div class="row justify-end  q-my-md">
       <div class="col-12 col-md-5 impact q-pa-md">
-        <h3 class="">Why</h3>
+        <h3 class="">MONITOR YOUR BEES WITH AI</h3>
         <p class="text-subtitle-1 q-mt-sm">
-          Developing a platform for beekeepers and companies comitted to sustainability by keeping bees. Using AI driven
-          frequency analysis and a simple-to-use monitoring system, we derive valuable information about their bee-colonies
-          and the surrounding environment.
-        </p>
-        <p class="text-subtitle-1">
-          This way, we cannot only contribute to preservance of honey bees and biodiversity, but ultimately,
-          help ourselves to preserve a diverse and healthy nutrition, honey bee products and a colourful nature to
-          marvel at.
+          We are developing an AI-driven monitoring system for beehives. Easy-to-install microphones are placed inside the hive to sample your bee’s buzzing. The analysis of their sound frequencies tells us a lot: Are they going to swarm soon? Did they lose their queen? Are they stressed because of an infection or intruders? Our system will detect anomalies early on and provide you with information about what’s going on in your hives - based on the latest scientific discoveries. 
         </p>
       </div>
     </div>
 
     <div class="row justify-start  q-my-md">
       <div class="col-12 col-md-5 impact q-pa-md">
-        <h3 class="">How</h3>
+        <h3 class="">FOR BEEKEPERS, FOR COMPANIES, FOR EVERYONE</h3>
         <p class="text-subtitle-1 q-mt-sm">
-          Developing a platform for beekeepers and companies comitted to sustainability by keeping bees. Using AI driven
-          frequency analysis and a simple-to-use monitoring system, we derive valuable information about their bee-colonies
-          and the surrounding environment.
-        </p>
-        <p class="text-subtitle-1">
-          This way, we cannot only contribute to preservance of honey bees and biodiversity, but ultimately,
-          help ourselves to preserve a diverse and healthy nutrition, honey bee products and a colourful nature to
-          marvel at.
+          We commit to sustainability goals – fortunately, an increasing number of companies follow this path, e.g. by keeping beehives on their premises. Our system helps companies to make a lasting positive impact on the surrounding natural environment. Not only do beekeepers and companies benefit from your healthy hives. But ultimately, each and everyone of us benefits from pollination services provided by our little winged friends. We need honey bees as much as they need us!
         </p>
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 
