@@ -1,7 +1,7 @@
 <template>
   <div class="q-my-xl">
-      <h3 class="q-my-md">Team</h3>
-      <div class="row">
+      <h2 class="q-my-md">Team</h2>
+      <div class="row justify-center">
         <div v-for="(profile, idx) in profiles" :key="idx" class="col-12 col-md-6 col-lg-4 q-mb-md">
           <q-img
               contain
