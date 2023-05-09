@@ -1,5 +1,9 @@
 // app global css in SCSS form
 
+body.body--dark {
+  color: $secondary;
+}
+
 .hivesound-waves{
   background-image: url('../assets/waves-hs-website-50.svg');
   background-size: cover;
@@ -35,38 +39,42 @@
   border-radius: 5px;
 }
 
- h1, h2, h3, h4 {
+h1, h2, h3, h4 {
   font-size: 24px;
   margin: 0;
+}
+
+.text-subtitle-1 {
+  font-size: 1rem;
 }
 
 /* styles for desktop screens */
 @media (min-width: 768px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
-    line-height: 3.125rem;
+    line-height: 2.5rem;
     letter-spacing: normal;
   }
 
   h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 400;
-    line-height: 3.125rem;
+    line-height: 2.5rem;
     letter-spacing: normal;
   }
 
   h3 {
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 3.125rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
     letter-spacing: normal;
   }
 
   h4 {
-    font-size: 2,5rem;
-    font-weight: 400;
-    line-height: 3.125rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.5rem;
     letter-spacing: normal;
   }
 }
@@ -74,30 +82,30 @@
 /* styles for mobile screens */
 @media (max-width: 767px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: 400;
-    line-height: 3.125rem;
+    line-height: 2rem;
     letter-spacing: normal;
   }
 
   h2 {
-    font-size: 2.7rem;
+    font-size: 1.7rem;
     font-weight: 400;
-    line-height: 3.125rem;
+    line-height: 2rem;
     letter-spacing: normal;
   }
 
   h3 {
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 3.125rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2rem;
     letter-spacing: normal;
   }
 
   h4 {
-    font-size : 1.2rem;
-    font-weight: 400;
-    line-height: 3.125rem;
+    font-size : 1rem;
+    font-weight: 500;
+    line-height: 2rem;
     letter-spacing: normal;
   }
 

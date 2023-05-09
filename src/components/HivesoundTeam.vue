@@ -1,18 +1,18 @@
 <template>
   <div class="q-my-xl">
-      <h3 class="q-my-md">Team</h3>
-      <div class="row">
+      <h2 class="q-my-md">Team</h2>
+      <div class="row justify-center">
         <div v-for="(profile, idx) in profiles" :key="idx" class="col-12 col-md-6 col-lg-4 q-mb-md">
           <q-img
               contain
               :src="profile.img"
-              width="22rem"
+              style="max-width: 22rem"
             >
           </q-img>
           <q-card
             flat
             class="q-mt-sm"
-            style="width:22rem"
+            style="max-width:22rem"
             >
             <q-card-section class="text-subtitle-1">
                 {{ profile.text }}
