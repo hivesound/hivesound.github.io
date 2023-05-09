@@ -16,7 +16,7 @@
             >
             <q-card-section class="text-subtitle-1">
                 {{ profile.text }}
-                <q-btn class="" flat icon="fab fa-linkedin-in" size="small" href="https://www.linkedin.com/in/kraus-kevin/" target="_blank"></q-btn>
+                <q-btn class="" flat icon="fab fa-linkedin-in" size="small" :href="profile.linkedin" target="_blank"></q-btn>
             </q-card-section>
           </q-card>
         </div>
