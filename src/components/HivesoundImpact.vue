@@ -1,10 +1,9 @@
 <template>
-  <!-- TODO Create mainframe that is defined in default to not use those v-container classes -->
-  <div class="no-margin-x hivesound-waves" id="impact">
-    <v-row justify="start" class="mb-4">
-      <v-col xxl="4" xl="4" lg="4" class="mx-16">
-         <h3 class="text-h3 mb-4">What</h3>
-        <p class="text-subtitle-1">
+  <div class="hivesound-waves" id="impact">
+    <div class="row justify-start q-my-md">
+      <div class="col-12 col-md-5 impact q-pa-md">
+        <h3 class="">What</h3>
+        <p class="text-subtitle-1 q-mt-sm">
           Developing a platform for beekeepers and companies comitted to sustainability by keeping bees. Using AI driven
           frequency analysis and a simple-to-use monitoring system, we derive valuable information about their bee-colonies
           and the surrounding environment.
@@ -14,12 +13,13 @@
           help ourselves to preserve a diverse and healthy nutrition, honey bee products and a colourful nature to
           marvel at.
         </p>
-      </v-col>
-    </v-row>
-    <v-row justify="end" class="mb-4">
-      <v-col xxl="4" xl="4" lg="4" class="mx-16 impact">
-         <h3 class="text-h3 mb-4">Why</h3>
-        <p class="text-subtitle-1">
+      </div>
+    </div>
+
+    <div class="row justify-end  q-my-md">
+      <div class="col-12 col-md-5 impact q-pa-md">
+        <h3 class="">Why</h3>
+        <p class="text-subtitle-1 q-mt-sm">
           Developing a platform for beekeepers and companies comitted to sustainability by keeping bees. Using AI driven
           frequency analysis and a simple-to-use monitoring system, we derive valuable information about their bee-colonies
           and the surrounding environment.
@@ -29,12 +29,13 @@
           help ourselves to preserve a diverse and healthy nutrition, honey bee products and a colourful nature to
           marvel at.
         </p>
-      </v-col>
-    </v-row>
-    <v-row justify="start" class="mb-4">
-      <v-col xxl="4" xl="4" lg="4" class="mx-16 impact">
-         <h3 class="text-h3 mb-4">How</h3>
-        <p class="text-subtitle-1">
+      </div>
+    </div>
+
+    <div class="row justify-start  q-my-md">
+      <div class="col-12 col-md-5 impact q-pa-md">
+        <h3 class="">How</h3>
+        <p class="text-subtitle-1 q-mt-sm">
           Developing a platform for beekeepers and companies comitted to sustainability by keeping bees. Using AI driven
           frequency analysis and a simple-to-use monitoring system, we derive valuable information about their bee-colonies
           and the surrounding environment.
@@ -44,15 +45,19 @@
           help ourselves to preserve a diverse and healthy nutrition, honey bee products and a colourful nature to
           marvel at.
         </p>
-      </v-col>
-    </v-row>
+      </div>
+    </div>
   </div>
 </template>
 
-<script lang="ts">
-export default {
+<script>
+import { defineComponent } from 'vue';
 
-}
+export default defineComponent({
+  setup() {
+
+  }
+})
 </script>
 
 <style>

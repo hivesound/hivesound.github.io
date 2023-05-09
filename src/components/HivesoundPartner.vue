@@ -1,23 +1,18 @@
 <template>
-  <div class="main noMarginX partner">
-    <h4 class="mb-6 text-h4" >Supported by</h4>
-    <v-row class="pa-2 mb-12">
-      <v-col>
+  <div class="q-my-xl partner">
+    <h3 class="q-my-xl" >Supported by</h3>
+    <div class="row justify-center">
+      <div class="col-12 col-md-6 col-lg-4 q-mb-md">
         <a href="https://www.aistartuphub.com/" target="_blank">
-          <v-img content  width="18rem" src="@/assets/ai_startup_hub.png" ></v-img>
+          <q-img contain style="width: 16rem" src="~assets/ai_startup_hub.png" ></q-img>
         </a>
-      </v-col>
-      <v-col>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
         <a href="https://www.imkerei-finck.de/" target="_blank">
-          <v-img content width="18rem" src="@/assets/partner_imkerei_finck.png"></v-img>
+          <q-img contain style="width: 16rem" src="~assets/partner_imkerei_finck.png"></q-img>
         </a>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-          <v-icon icon="fal fa-bee"></v-icon>
-      </v-col>
-    </v-row>
+      </div>
+    </div>
   </div>
 </template>
 
