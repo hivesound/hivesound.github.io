@@ -2,7 +2,7 @@
   <div class="hivesound-waves" id="impact">
     <div class="row justify-start q-my-md">
       <div class="col-12 col-md-5 impact q-pa-md">
-        <h3 class="">What</h3>
+        <h3 class="">Idea</h3>
         <p class="text-subtitle-1 q-mt-sm">
           Developing a platform for beekeepers and companies comitted to sustainability by keeping bees. Using AI driven
           frequency analysis and a simple-to-use monitoring system, we derive valuable information about their bee-colonies
@@ -15,8 +15,8 @@
         </p>
       </div>
     </div>
-
-    <div class="row justify-end  q-my-md">
+<!-- Remove comments once texts are ready! -->
+    <!-- <div class="row justify-end  q-my-md">
       <div class="col-12 col-md-5 impact q-pa-md">
         <h3 class="">Why</h3>
         <p class="text-subtitle-1 q-mt-sm">
@@ -46,7 +46,7 @@
           marvel at.
         </p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
