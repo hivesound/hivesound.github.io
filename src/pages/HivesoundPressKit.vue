@@ -27,12 +27,16 @@
         </div>
     </div>
   </div>
+
+  <hivesound-team/>
 </template>
 
 <script lang="ts">
+import HivesoundTeam from 'src/components/HivesoundTeam.vue'
 import { defineComponent } from "vue";
 
 export default defineComponent({
-
+  components: { HivesoundTeam },
+  name: 'IndexPage'
 })
 </script>
