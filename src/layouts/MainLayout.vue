@@ -38,6 +38,16 @@
               <span>LinkedIn</span>
           </a>
         </div>
+        <div class="col imprint q-mr-md">
+          <div class="">
+            <p style="font-weight: bold; font-size:medium">Media</p>
+            <router-link
+              style="text-decoration: none; color: inherit;"
+              to="/press-kit">
+              Press Kit
+            </router-link>
+          </div>
+        </div>
       </div>
     </q-footer>
   </q-layout>
