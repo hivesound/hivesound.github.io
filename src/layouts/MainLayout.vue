@@ -1,7 +1,7 @@
 <template>
   <q-layout class="q-pa-xl" view="lHh Lpr lFf">
     <q-header class="header q-pa-md">
-      <router-link to="/hivesound/">
+      <router-link to="/">
         <q-img
           class=""
           src="~assets/HIVESOUND_CI_yellow.png"
