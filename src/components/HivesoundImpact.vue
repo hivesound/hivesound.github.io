@@ -22,7 +22,7 @@
       <div class="col-12 col-md-5 impact q-pa-md">
         <h3 class="">FOR BEEKEPERS, FOR COMPANIES, FOR EVERYONE</h3>
         <p class="text-subtitle-1 q-mt-sm">
-          We commit to sustainability goals – fortunately, an increasing number of companies follow this path, e.g. by keeping beehives on their premises. Our system helps companies to make a lasting positive impact on the surrounding natural environment. Not only do beekeepers and companies benefit from your healthy hives. But ultimately, each and everyone of us benefits from pollination services provided by our little winged friends. We need honey bees as much as they need us!
+          We commit to sustainability goals – an increasing number of companies follow this path, e.g. by keeping beehives on their premises. Our system helps companies to make a lasting positive impact on the surrounding natural environment. Not only do beekeepers and companies benefit from your healthy hives. But ultimately, each and everyone of us benefits from pollination services provided by our little winged friends. We need honey bees as much as they need us!
         </p>
       </div>
     </div>
