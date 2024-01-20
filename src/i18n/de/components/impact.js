@@ -1,0 +1,10 @@
+export default {
+    box1_title: 'BIENEN SIND WICHTIG FÜR DIE MENSCHEN UND DEN PLANETEN',
+    box1_text: 'Wir brauchen Honigbienen - sie bestäuben unsere Nutzpflanzen, sorgen für Ernährungssicherheit und eine abwechslungsreiche Ernährung. Das Funktionieren ganzer Ökosysteme und die Erhaltung der Artenvielfalt hängen in hohem Maße von den Honigbienen ab. Derzeit ist ihr Überleben durch den Klimawandel, Pestizide, alte und neue Schädlinge bedroht, und sie können ohne menschliche Fürsorge kaum überleben. Wir sorgen dafür, dass Dein Bienenstock kontinuierlich überwacht wird, damit Deine Bienen so glücklich und gesund wie möglich bleiben.',
+
+    box2_title: 'ÜBERWACHEN DEINE BIENEN MIT KI',
+    box2_text: 'Wir entwickeln ein KI-gesteuertes Überwachungssystem für Bienenstöcke. Einfach zu installierende Mikrofone werden im Inneren des Bienenstocks angebracht, um das Summen der Bienen zu erfassen. Die Analyse ihrer Schallfrequenzen sagt uns viel: Werden sie bald schwärmen? Haben sie ihre Königin verloren? Sind sie wegen einer Infektion oder Eindringlingen gestresst? Unser System erkennt Anomalien frühzeitig und liefert Dir Informationen darüber, was in Deinem Bienenstöcken vor sich geht - basierend auf den neuesten wissenschaftlichen Erkenntnissen.',
+
+    box3_title: 'FÜR IMKER, FÜR UNTERNEHMEN, FÜR ALLE',
+    box3_text: 'Wir verpflichten uns zu Nachhaltigkeitszielen - immer mehr Unternehmen gehen diesen Weg, indem sie z.B. Bienenstöcke auf ihrem Gelände halten. Unser System hilft den Unternehmen, die Natur in ihrer Umgebung nachhaltig positiv zu beeinflussen. Von Ihren gesunden Bienenstöcken profitieren nicht nur die Imker und Unternehmen. Letztlich profitiert jeder von uns von der Bestäubungsleistung unserer kleinen geflügelten Freunde. Wir brauchen die Honigbienen so sehr wie sie uns brauchen!',
+}
