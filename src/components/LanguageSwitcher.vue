@@ -1,5 +1,5 @@
 <template>
-    <q-select v-model="locale" :options="localeOptions" label="select language" dense borderless emit-value map-options
+    <q-select v-model="locale" :options="localeOptions" :label="$t('select_language')" dense borderless emit-value map-options
         options-dense style="min-width: 150px">
     </q-select>
 </template>
