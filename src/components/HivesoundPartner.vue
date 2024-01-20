@@ -1,6 +1,6 @@
 <template>
   <div class="q-my-xl partner">
-    <h2 class="q-my-md" >Supported by</h2>
+    <h2 class="q-my-md" >{{ $t('components.partner.supported_by') }}</h2>
     <div class="row justify-center">
       <div class="col-12 col-md-6 col-lg-4 q-mb-md">
         <a href="https://www.aistartuphub.com/" target="_blank">
