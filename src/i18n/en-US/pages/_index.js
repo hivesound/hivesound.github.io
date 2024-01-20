@@ -1,5 +1,7 @@
-import presskit_page from "./presskit.js";
+import presskit from "./presskit.js";
+import imprint from "./imprint.js";
 
 export default {
-    presskit: presskit_page
+    presskit: presskit,
+    imprint: imprint
 }
