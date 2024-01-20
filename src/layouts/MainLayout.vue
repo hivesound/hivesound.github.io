@@ -1,6 +1,6 @@
 <template>
   <q-layout class="q-pa-xl" view="lHh Lpr lFf">
-    <q-header class="header q-pa-md">
+    <q-header class="header q-pa-md" style="display: flex; justify-content: space-between; align-items: center;">
       <router-link to="/">
         <q-img
           class=""
@@ -9,6 +9,7 @@
           >
         </q-img>
       </router-link>
+      <language-swicher/>
     </q-header>
 
     <q-page-container>
@@ -56,12 +57,12 @@
 <script>
 import { defineComponent } from 'vue'
 import { useQuasar } from 'quasar'
+import LanguageSwicher from 'src/components/LanguageSwitcher.vue'
 
 export default defineComponent({
   name: 'MainLayout',
 
-  components: {
-  },
+  components: { LanguageSwicher },
 
   setup () {
 
