@@ -5,7 +5,7 @@
         404
       </div>
 
-      <div class="text-h2" style="opacity:.4">Oops. Nothing here...</div>
+      <div class="text-h2" style="opacity:.4">{{ $t('pages.error._404.text') }}</div>
 
       <q-btn
         class="q-mt-xl"
@@ -13,7 +13,7 @@
         text-color="dark"
         unelevated
         to="/"
-        label="Go Home"
+        :label="$t('pages.error._404.button')"
         no-caps
       />
     </div>
