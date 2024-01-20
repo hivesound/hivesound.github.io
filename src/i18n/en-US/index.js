@@ -1,9 +1,7 @@
-export default {
-  select_language: 'select language',
+import pages from './pages/_index.js';
+import layout from './layout/_index.js';
 
-  footer_media: 'Media',
-  footer_follow_us: 'Follow us',
-  footer_legal: 'Legal',
-  footer_imprint: 'Imprint',
-  footer_presskit: 'Press kit',
+export default {
+  layout: layout,
+  pages: pages
 }
