@@ -24,16 +24,16 @@
         </div>
         <div class="col imprint q-mr-md">
           <div class="">
-            <p style="font-weight: bold; font-size:medium">Legal</p>
+            <p style="font-weight: bold; font-size:medium">{{ $t('footer_legal') }}</p>
             <router-link
               style="text-decoration: none; color: inherit;"
               to="/imprint">
-              Imprint
+              {{ $t('footer_imprint') }}
             </router-link>
           </div>
         </div>
         <div class="col imprint">
-          <p style="font-weight: bold; font-size:medium">Follow us</p>
+          <p style="font-weight: bold; font-size:medium">{{ $t('footer_follow_us') }}</p>
           <a class="imprint" href="https://www.linkedin.com/company/hivesound/" target="_blank">
               <span class="q-pr-sm"><q-icon name="fab fa-linkedin-in"/></span>
               <span>LinkedIn</span>
@@ -41,11 +41,11 @@
         </div>
         <div class="col imprint q-mr-md">
           <div class="">
-            <p style="font-weight: bold; font-size:medium">Media</p>
+            <p style="font-weight: bold; font-size:medium">{{ $t('footer_media') }}</p>
             <router-link
               style="text-decoration: none; color: inherit;"
               to="/press-kit">
-              Press Kit
+              {{ $t('footer_presskit') }}
             </router-link>
           </div>
         </div>
