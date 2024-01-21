@@ -20,6 +20,11 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "home" */ 'pages/HivesoundPressKit.vue'),
+      },
+      {
+        path: '/newsletter',
+        name: 'Newsletter',
+        component: () => import('pages/HivesoundNewsletter.vue'),
       }
     ]
   },

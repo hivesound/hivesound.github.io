@@ -38,6 +38,13 @@
               <span class="q-pr-sm"><q-icon name="fab fa-linkedin-in"/></span>
               <span>LinkedIn</span>
           </a>
+          <br>
+          <br>
+          <router-link
+              style="text-decoration: none; color: inherit;"
+              to="/newsletter">
+              Newsletter
+            </router-link>
         </div>
         <div class="col imprint q-mr-md">
           <div class="">
