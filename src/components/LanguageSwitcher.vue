@@ -47,12 +47,13 @@ export default {
             { value: 'de', label: 'Deutsch', img: "/icons/flags/germany.png" },
             { value: 'en-US', label: 'English', img: "/icons/flags/united-kingdom.png" }
         ]
-        /*
-        const browserLocaleCode = $q.lang.getLocale()
+        
+        // const browserLocaleCode = $q.lang.getLocale()
 
+        const browserLocaleCode = 'de'
         if (localeOptions.some(localeOption => localeOption.value == browserLocaleCode)) {
             locale.value = browserLocaleCode
-        }*/
+        }
 
         return {
             locale,
