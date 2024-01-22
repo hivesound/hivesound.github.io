@@ -44,8 +44,8 @@ export default {
         const { locale } = useI18n({ useScope: 'global' })
 
         const localeOptions = [
-            { value: 'en-US', label: 'English', img: "/icons/flags/united-kingdom.png" },
-            { value: 'de', label: 'Deutsch', img: "/icons/flags/germany.png" }
+            { value: 'de', label: 'Deutsch', img: "/icons/flags/germany.png" },
+            { value: 'en-US', label: 'English', img: "/icons/flags/united-kingdom.png" }
         ]
 
         const browserLocaleCode = $q.lang.getLocale()
