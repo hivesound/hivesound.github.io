@@ -36,23 +36,23 @@ html
   
 <script>
 import { useI18n } from 'vue-i18n'
-import { useQuasar } from 'quasar';
+// import { useQuasar } from 'quasar';
 
 export default {
     setup() {
-        const $q = useQuasar();
+        // const $q = useQuasar();
         const { locale } = useI18n({ useScope: 'global' })
 
         const localeOptions = [
             { value: 'de', label: 'Deutsch', img: "/icons/flags/germany.png" },
             { value: 'en-US', label: 'English', img: "/icons/flags/united-kingdom.png" }
         ]
-
+        /*
         const browserLocaleCode = $q.lang.getLocale()
 
         if (localeOptions.some(localeOption => localeOption.value == browserLocaleCode)) {
             locale.value = browserLocaleCode
-        }
+        }*/
 
         return {
             locale,
