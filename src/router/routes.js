@@ -25,6 +25,11 @@ const routes = [
         path: '/newsletter',
         name: 'Newsletter',
         component: () => import('pages/HivesoundNewsletter.vue'),
+      },
+      {
+        path: '/webinar',
+        name: 'Webinar',
+        component: () => import('pages/HivesoundWebinar.vue'),
       }
     ]
   },
