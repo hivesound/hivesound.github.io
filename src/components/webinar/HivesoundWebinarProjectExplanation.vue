@@ -24,7 +24,7 @@
 		wissen wir, wie du den Zustand deiner Völker einschätzt und welche Arbeiten an den Beuten mit Veränderungen des
 		Summens in Zusammenhang stehen. Die so gesammelten Audio-Daten werden auf einer öffentlichen Plattform gesammelt
 		(Open Data), damit auch Wissenschaftler:innen darauf zugreifen können.</p>
-
+	<br>
 	<h2>Ich möchte keine Sensorik in meinen Beuten verbauen, kann ich trotzdem mitmachen?</h2>
 	<br>
 	<p>Auf jeden Fall, denn wir suchen dich auch zum Testen unseres ersten Features “Queen@Home”: Lege dein Smartphone unter
@@ -35,8 +35,17 @@
 	<h2>Wie kann ich mitmachen und was habe ich davon?</h2>
 	<br>
 	<p>Wir bieten am 20. Februar 2024 von 18:00 bis 19:00 Uhr eine Online-Veranstaltung für Interessierte an.
-		Hier stellen wir uns und unser Vorhaben vor und beantworten all deine Fragen. 
+		Hier stellen wir uns und unser Vorhaben vor und beantworten all deine Fragen.
 
-		Als Aufwandsentschädigung für die Hilfe beim Datensammeln, bieten wir einen lebenslangen Gratis-Zugang zu unserer Plattform und
+		Als Aufwandsentschädigung für die Hilfe beim Datensammeln, bieten wir einen lebenslangen Gratis-Zugang zu unserer
+		Plattform und
 		eine kostenlose DNA-Trachtanalyse von sinsoma (https://www.trachtanalyse.com/)</p>
 </template>
+
+<style>
+
+p {
+	font-size: 1.5em;
+}
+
+</style>
