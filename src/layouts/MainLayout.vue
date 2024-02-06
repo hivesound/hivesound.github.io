@@ -44,7 +44,14 @@
               style="text-decoration: none; color: inherit;"
               to="/newsletter">
               Newsletter
-            </router-link>
+          </router-link>
+          <br>
+          <br>
+          <router-link
+              style="text-decoration: none; color: inherit;"
+              to="/webinar">
+              Webinar
+          </router-link>
         </div>
         <div class="col imprint q-mr-md">
           <div class="">
