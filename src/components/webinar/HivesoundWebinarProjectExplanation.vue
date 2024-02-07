@@ -1,5 +1,5 @@
 <template>
-	<h1>Du bist Imker:in? Wir brauchen wir dich!</h1>
+	<h1>Du bist Imker:in? Wir brauchen dich!</h1>
 	<br>
 	<br>
 	<h2>Was soll Monitoring für Honigbienen?</h2>
@@ -15,7 +15,7 @@
 	<br>
 	<h2>Wie funktioniert das genau und warum braucht ihr mich dafür?</h2>
 	<br>
-	<p>Zusammen mit dem Erfurter Unternehmen microsenys GmbH entwickeln wir Sensorik, die in der Beute angebracht wird und
+	<p>Zusammen mit dem Erfurter Unternehmen <i>microsensys GmbH</i> entwickeln wir Sensorik, die in der Beute angebracht wird und
 		das Summen der Bienen aufnimmt. Die Daten werden dann von einer künstlichen Intelligenz (KI) analysiert. So soll
 		z.B. in Echtzeit erfasst werden, ob die Königin da ist oder fehlt, die Völker in Schwarmstimmung kommen oder das
 		Volk angegriffen wird. Zum Trainieren der KI brauchen wir Daten und hier kommst du ins Spiel: Es gibt nur wenig
@@ -39,7 +39,7 @@
 
 		Als Aufwandsentschädigung für die Hilfe beim Datensammeln, bieten wir einen lebenslangen Gratis-Zugang zu unserer
 		Plattform und
-		eine kostenlose DNA-Trachtanalyse von sinsoma (https://www.trachtanalyse.com/)</p>
+		eine kostenlose DNA-Trachtanalyse von <a href="https://www.trachtanalyse.com/" target="_blank"><i>Sinsoma</i></a></p>
 </template>
 
 <style>
