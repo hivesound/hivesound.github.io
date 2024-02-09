@@ -1,41 +1,17 @@
 <template>
-    <form class="layout_form cr_form cr_font" action="https://seu2.cleverreach.com/f/375305-379638/wcs/" method="post"
-        target="_blank">
-        <div class="cr_body cr_page cr_font formbox">
-            <div class="non_sortable" style="text-align:left;">
-
+    <div class="cr_body cr_page cr_font formbox">
+        <div class="editable_content" style="text-align:left;">
+            <div class="cr_form-component cr_form-component--submit cr_ipe_item ui-sortable  submit_container">
+                <h3>Webinar: HIVESOUND sucht DICH</h3>
+                <h3>20. Februar 2024, 18:00-19:00 Uhr</h3>
             </div>
-
-            <div class="editable_content" style="text-align:left;">
-                <div class="cr_form-component cr_form-component--email cr_ipe_item ui-sortable musthave"
-                    style="margin-bottom:px;">
-                    <h3>Webinar: HIVESOUND sucht DICH</h3>
-                    <h3>20. Februar 2024, 18:00-19:00 Uhr</h3>
-                </div>
-                <div id="8607495" rel="email"
-                    class="cr_form-component cr_form-component--email cr_ipe_item ui-sortable musthave"
-                    style="margin-bottom:px;">
-                    <div class="cr_form-inputgroup cr_form-inputgroup--typeemail">
-                        <label for="text8607495">E-Mail*</label>
-                        <input class="cr_form-input" type="email" id="text8607495" name="email" value=""
-                            placeholder="name@beispiel.de" style="width:100%;">
-                    </div>
-                </div>
-                <div id="8607498" rel="mce_text" class="cr_ipe_item ui-sortable">
-                    <div class="mce_text">
-                        <p><br></p>
-                    </div>
-                </div>
-                <div id="8607500" rel="button"
-                    class="cr_form-component cr_form-component--submit cr_ipe_item ui-sortable  submit_container">
-                    <button type="submit" class="cr_form-block cr_button">Zum Webinar anmelden</button>
-                </div>
-
+            <br>
+            <div class="cr_form-component cr_form-component--submit cr_ipe_item ui-sortable  submit_container">
+                <a href="https://us06web.zoom.us/meeting/register/tZcudu6urj0tH926jvl9a7yuj1J0q7w50HzM"
+                    target="_blank"><button type="submit" class="cr_form-block cr_button">Zum Webinar anmelden</button></a>
             </div>
-
-            <noscript><a href="http://www.cleverreach.de">www.CleverReach.de</a></noscript>
         </div>
-    </form>
+    </div>
 </template>
 
 
@@ -298,10 +274,12 @@ input.cr_ipe_checkbox {
 
 .cr_site a {
     color: #0084ff;
-}</style>
+}
+</style>
 
 
-<style id="style">.cr_site {
+<style id="style">
+.cr_site {
     background-color: #1B1B1E;
 }
 
@@ -334,7 +312,8 @@ input.cr_ipe_checkbox {
 .cr_button {
     background-color: #FAA916;
     color: #1E1E1E;
-}</style>
+}
+</style>
 
 
 
