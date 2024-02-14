@@ -15,7 +15,7 @@
 	<br>
 	<h2>Wie funktioniert das genau und warum braucht ihr mich dafür?</h2>
 	<br>
-	<p>Zusammen mit dem Erfurter Unternehmen <a href="https://www.microsensys.de/" target="_blank"><i>Micro-Sensys GmbH</i></a> entwickeln wir Sensorik, die in der Beute angebracht wird und
+	<p>Zusammen mit dem Erfurter Unternehmen <a href="https://www.microsensys.de/" target="_blank"><i>microsensys</i></a> entwickeln wir Sensorik, die in der Beute angebracht wird und
 		das Summen der Bienen aufnimmt. Die Daten werden dann von einer künstlichen Intelligenz (KI) analysiert. So soll
 		z.B. in Echtzeit erfasst werden, ob die Königin da ist oder fehlt, die Völker in Schwarmstimmung kommen oder das
 		Volk angegriffen wird. Zum Trainieren der KI brauchen wir Daten und hier kommst du ins Spiel: Es gibt nur wenig
@@ -39,13 +39,39 @@
 
 		Als Aufwandsentschädigung für die Hilfe beim Datensammeln, bieten wir einen lebenslangen Gratis-Zugang zu unserer
 		Plattform und
-		eine kostenlose DNA-Trachtanalyse von <a href="https://www.trachtanalyse.com/" target="_blank"><i>Sinsoma</i></a></p>
+		eine kostenlose DNA-Trachtanalyse von <a href="https://www.trachtanalyse.com/" target="_blank"><i>Sinsoma</i></a>
+	</p>
 </template>
 
 <style>
-
 p {
 	font-size: 1.5em;
+}
+
+/* Set the color for unvisited links */
+a:link {
+	color: #fac413;
+	/* Standard blue for unvisited link */
+	text-decoration: none;
+	/* Optional: removes underline */
+}
+
+/* Set the color for visited links */
+a:visited {
+	color: #707070;
+	/* Dark purple for visited link */
+}
+
+/* Set the color for links when mouse hovers over */
+a:hover {
+	color: #e6e6e6;
+	/* Orange color on hover */
+}
+
+/* Set the color for links when they are clicked on */
+a:active {
+	color: #ffe200;
+	/* Green color for active link */
 }
 
 </style>
