@@ -58,19 +58,19 @@ a:link {
 
 /* Set the color for visited links */
 a:visited {
-	color: #707070;
+	color: #e6e6e6;
 	/* Dark purple for visited link */
 }
 
 /* Set the color for links when mouse hovers over */
 a:hover {
-	color: #e6e6e6;
+	color: #ffe200;
 	/* Orange color on hover */
 }
 
 /* Set the color for links when they are clicked on */
 a:active {
-	color: #ffe200;
+	color: #e6e6e6;
 	/* Green color for active link */
 }
 
