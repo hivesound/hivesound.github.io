@@ -15,7 +15,7 @@
 	<br>
 	<h2>Wie funktioniert das genau und warum braucht ihr mich dafür?</h2>
 	<br>
-	<p>Zusammen mit dem Erfurter Unternehmen <i>microsensys GmbH</i> entwickeln wir Sensorik, die in der Beute angebracht wird und
+	<p>Zusammen mit dem Erfurter Unternehmen <a href="https://www.microsensys.de/" target="_blank"><i>Micro-Sensys GmbH</i></a> entwickeln wir Sensorik, die in der Beute angebracht wird und
 		das Summen der Bienen aufnimmt. Die Daten werden dann von einer künstlichen Intelligenz (KI) analysiert. So soll
 		z.B. in Echtzeit erfasst werden, ob die Königin da ist oder fehlt, die Völker in Schwarmstimmung kommen oder das
 		Volk angegriffen wird. Zum Trainieren der KI brauchen wir Daten und hier kommst du ins Spiel: Es gibt nur wenig
