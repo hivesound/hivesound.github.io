@@ -2,13 +2,12 @@
     <div class="cr_body cr_page cr_font formbox">
         <div class="editable_content" style="text-align:left;">
             <div class="cr_form-component cr_form-component--submit cr_ipe_item ui-sortable  submit_container">
-                <h3>Webinar: HIVESOUND sucht DICH</h3>
-                <h3>20. Februar 2024, 18:00-19:00 Uhr</h3>
+                <h3>HIVESOUND sucht DICH</h3>
             </div>
             <br>
             <div class="cr_form-component cr_form-component--submit cr_ipe_item ui-sortable  submit_container">
-                <a href="https://us06web.zoom.us/meeting/register/tZcudu6urj0tH926jvl9a7yuj1J0q7w50HzM"
-                    target="_blank"><button type="submit" class="cr_form-block cr_button">Zum Webinar anmelden</button></a>
+                <a href="https://survey.lamapoll.de/HIVESOUND-sucht-DICH"
+                    target="_blank"><button type="submit" class="cr_form-block cr_button">Zur Teilnahme anmelden</button></a>
             </div>
         </div>
     </div>

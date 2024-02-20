@@ -34,8 +34,7 @@
 
 	<h2>Wie kann ich mitmachen und was habe ich davon?</h2>
 	<br>
-	<p>Wir bieten am 20. Februar 2024 von 18:00 bis 19:00 Uhr eine Online-Veranstaltung für Interessierte an.
-		Hier stellen wir uns und unser Vorhaben vor und beantworten all deine Fragen.
+	<p>Nimm an unserer Umfrage teil und wir melden uns bei dir. Wenn alles passt, schicken wir dir Software bzw. Hardware und du kannst loslegen.
 
 		Als Aufwandsentschädigung für die Hilfe beim Datensammeln, bieten wir einen lebenslangen Gratis-Zugang zu unserer
 		Plattform und
