@@ -30,6 +30,11 @@ const routes = [
         path: '/webinar',
         name: 'Webinar',
         component: () => import('pages/HivesoundWebinar.vue'),
+      },
+      {
+        path: '/wir-suchen-dich',
+        name: 'Wir suchen dich',
+        component: () => import('pages/HivesoundWebinar.vue'),
       }
     ]
   },
