@@ -4,7 +4,7 @@
       <router-link to="/">
         <q-img
           class=""
-          src="~assets/HIVESOUND_CI_yellow.png"
+          src="~assets/HIVESOUND_CI_logotype_yellow_transparent.png"
           width="12rem"
           >
         </q-img>
@@ -19,7 +19,7 @@
     <q-footer class="footer">
       <div class="row q-pa-xl q-ml-none">
         <div class="col q-mr-md">
-            <q-img src="~assets/HIVESOUND_CI_yellow.png" style="max-width: 15rem"></q-img>
+            <q-img src="~assets/HIVESOUND_CI_logotype_yellow_transparent.png" style="max-width: 15rem"></q-img>
             <p class="q-mt-sm footnote">@HIVESOUND {{ new Date().getFullYear() }}</p>
         </div>
         <div class="col imprint q-mr-md">

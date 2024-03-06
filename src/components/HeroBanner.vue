@@ -2,7 +2,7 @@
   <div class="window-height">
       <q-img
         contain
-        src="~assets/HIVESOUND_CI_waves.png"
+        src="~assets/HIVESOUND_CI_transparent_banner.png"
       />
       <div class="text-center">
         <a :href="$t('components.newsletter.cleverreach.form_url')" target="_blank" class="button-link">{{ $t('components.newsletter.button_label') }}</a>
