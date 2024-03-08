@@ -2,7 +2,7 @@ export default {
     box1_title: 'BIENEN SIND WICHTIG FÜR MENSCHEN UND ÖKOSYSTEME',
     box1_text: 'Wir brauchen Honigbienen - für die Bestäubung unserer Nutzpflanzen und die Sicherstellung einer abwechslungsreichen Ernährung. Seit über tausenden von Jahren sind Mensch und Honigbiene Teil dieser symbiontischen Beziehung, von denen beide Partner enorm profitieren. Honigbienen spielen darüber hinaus eine wichtige Rolle in vielen verschiedenen Ökosystemen und beim Erhalt der Biodiversität überall auf der Welt. Leider werden sie zunehmend bedroht: durch den Klimawandel, invasive Arten, alte und neue Krankheitserreger sowie Pestizide (z.B. Glyphosat). Wir können es uns nicht länger leisten, diesen Zustand zu ignorieren.',
 
-    box2_title: 'ÜBERWACHEN DEINE BIENEN MIT KI',
+    box2_title: 'ÜBERWACHE DEINE BIENEN MIT KI',
     box2_text: 'Wir entwickeln ein KI-gestütztes Überwachungssystem für Bienenstöcke. Mikrofone werden einfach im Inneren des Bienenstocks installiert und erfassen das Summen der Bienen. Die Analyse ihrer Schallfrequenzen sagt uns viel: Werden sie bald schwärmen? Haben sie ihre Königin verloren? Sind sie wegen einer Infektion oder Eindringlingen gestresst? Unser System erkennt Anomalien frühzeitig und liefert dir Informationen darüber, was in deinem Bienenstöcken vor sich geht. Dabei stützen wir uns auf neueste wissenschaftliche Erkenntnissen.',
 
     box3_title: 'DIE IMKEREI STEHT VOR NEUEN HERAUSFORDERUNGEN',
